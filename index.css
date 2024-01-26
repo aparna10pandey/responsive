@@ -1,0 +1,136 @@
+*{
+  text-align: center;
+  margin-left: 0px;
+  margin-right: 50px;
+  padding: 10px;
+}
+.main{
+  margin-left: 30px;
+}
+.logobox , .inputbox{
+  display: flex;
+  flex-direction: column;
+}
+
+.logobox{
+  padding: 0px;
+ float: left;
+  width: 480px;
+ margin-left: -30px;
+  margin-top: 140px;
+  
+
+}
+
+
+.inputbox form , .lst{
+  height: 303px;
+  width: 346px;
+  margin-top: 80px;
+  margin-left: 30px;
+  padding: 17px;
+  border-radius: 10px;
+ 
+}
+
+.inputbox form{
+  background-color: white;
+  box-shadow: 0px 0px 5px rgb(173, 170, 170);
+}
+.lst{
+
+margin-top: 0px;
+text-align: center;
+font-family: Arial, Helvetica, sans-serif;
+font-size: 13px;
+}
+.logobox h1{
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: left
+  ;
+  font-size: 50px ;
+  color: rgba(33, 114, 235, 0.953);
+margin-bottom: 25px;
+}
+.logobox p{
+  text-align: left;
+  display: flex;
+  margin-top: -30px;
+  font-size: 27px;
+  font-family: Arial, Helvetica, sans-serif;
+  width: 500px;
+  
+}
+
+#a ,#b {
+  border-color: rgb(220, 219, 219);
+  border-style: ridge;
+ text-align: left;
+ padding: 15px;
+ margin-left: -4px;
+ width: 323px;
+ border-radius: 5px;
+}
+#a, #b {
+  margin-bottom: 10px;
+}
+#c{
+  color: white;
+  font-size: 20px;
+  text-align: center;
+  padding: 15px;
+  margin-left: -4px;
+  width: 355px;
+  border-radius: 5px;
+  border-style: hidden;
+  background-color: rgba(33, 114, 235, 0.953);
+  border-color: rgba(33, 114, 235, 0.953);
+    margin-bottom: 17px;
+}
+#d {
+  margin-left: 100px;
+
+}
+#e{
+  margin-top: -7px;
+margin-left: 10px;
+color: rgb(190, 189, 189);
+}
+#f{
+  margin-left: 70px;
+  width: 200px;
+  height: 50px;
+  border-radius: 5px;
+  background-color: rgb(2, 204, 29);
+  border-style: hidden;
+
+}
+  @media (max-width: 700px){
+    *{
+      text-align: center;
+      margin-left: 0px;
+      margin-right: 50px;
+      padding: 10px;
+    }
+    .main{
+      margin-left: 30px;
+    }
+    .logobox{
+      margin-bottom: -60px;
+    }
+    .logobox h1{
+      margin-left: 70px;
+      text-align: center;
+    }
+    .logobox p{
+      text-align: center;
+    }
+    .inputbox{
+      justify-content: center;
+    }
+  }
+
+
+
+ 
+   
